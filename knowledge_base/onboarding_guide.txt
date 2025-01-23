@@ -1,0 +1,64 @@
+# Team Onboarding and Development Guide
+
+## New Developer Setup
+Essential steps for new team members:
+1. Development environment setup
+   - Docker Desktop
+   - Node.js LTS version
+   - PostgreSQL client
+   - Code editor configurations
+
+2. Access Requirements:
+   - GitHub organization access
+   - AWS development account
+   - Monitoring tools access
+   - CI/CD pipeline access
+
+## Development Workflow
+Our development process:
+1. Feature branch creation from main
+2. Local development and testing
+3. Code review process
+4. CI/CD pipeline validation
+5. Staging deployment and testing
+6. Production deployment
+
+## Common Pitfalls to Avoid
+Based on past experiences:
+- Not testing in isolation
+- Skipping integration tests
+- Insufficient logging
+- Hardcoding configuration
+- Not handling edge cases 
+
+# Mandatory Onboarding Protocol
+
+## Development Environment Setup
+Required tools (NO alternatives accepted):
+1. VSCode with our custom extension pack
+   - ESLint + Prettier + SonarLint required
+   - Custom snippets mandatory
+   - Vim keybindings encouraged
+
+2. Local Environment:
+   - Docker Desktop Enterprise ONLY
+   - Node.js v20+ (via nvm ONLY)
+   - PostgreSQL 15+ client
+   - Redis Enterprise client
+   - K9s for Kubernetes management
+
+## Access Requirements
+Mandatory access protocol:
+1. GitHub Enterprise with 2FA (YubiKey only)
+2. AWS SSO with hardware token
+3. 1Password Enterprise for secrets
+4. DataDog + PagerDuty accounts
+5. Internal wiki editor access
+
+## First Week Requirements
+Mandatory completion items:
+1. Security training certification
+2. AWS fundamentals certification
+3. Internal architecture exam
+4. Coding standards quiz (90%+ to pass)
+5. Setup verification by senior engineer 

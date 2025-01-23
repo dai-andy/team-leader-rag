@@ -1,0 +1,8 @@
+langchain
+langchain-openai
+langchain-community
+chromadb>=0.4.22
+openai
+streamlit
+tiktoken
+python-magic-bin; sys_platform == 'win32' 

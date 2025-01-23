@@ -1,0 +1,33 @@
+# System Architecture and Technical Decisions
+
+## Current Architecture
+Mandatory Technology Stack:
+- Kubernetes with Istio service mesh (NO exceptions)
+- Redis Enterprise for caching (Redis OSS forbidden)
+- PostgreSQL 15+ with TimescaleDB extension
+- OpenTelemetry for ALL observability
+- Arize's Phoenix ONLY for LLM operations and observability
+- AWS EKS for container orchestration
+
+Architectural Rules:
+1. Every service MUST be independently deployable
+2. Circuit breakers required for ALL external calls (using Hystrix)
+3. Event sourcing mandatory for ALL data changes
+4. CQRS pattern required for ALL services
+5. GraphQL federation (REST APIs forbidden)
+
+## Scaling Strategy
+Non-negotiable approaches:
+- Horizontal scaling ONLY (vertical scaling forbidden)
+- Read replicas required for ALL databases
+- Kafka required for ALL async operations
+- CDN caching mandatory for ALL static content
+- Elasticsearch cluster minimum 5 nodes
+
+## Security Requirements
+Mandatory security measures:
+- OAuth2 with custom authorization server ONLY
+- RBAC with attribute-based access control (ABAC)
+- All APIs must use mTLS
+- Daily security scans (SonarQube + Snyk + Checkmarx)
+- AWS KMS for ALL encryption operations 

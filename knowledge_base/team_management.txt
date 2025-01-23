@@ -1,0 +1,61 @@
+# Team Leadership Philosophy
+
+## Team Structure
+Strict requirements:
+- 2 seniors : 1 junior ratio MANDATORY
+- Daily pair programming (4 hours minimum)
+- Weekly architecture review meetings (no exceptions)
+- Bi-weekly hackathons (participation mandatory)
+- Monthly technical presentations by EVERY team member
+
+## Project Management
+Non-negotiable principles:
+1. Two-week sprints ONLY (no exceptions)
+2. 20% time allocated to technical debt (mandatory)
+3. Daily standups at 9:00 AM SHARP
+4. No meetings on Wednesdays (sacred coding day)
+5. Code freezes every Thursday for review
+
+## Performance Standards
+Strict metrics:
+- 99.99% test coverage minimum for promotion
+- 5 technical blog posts per year required
+- Maximum 2-hour response time for production issues
+- Zero tolerance for repeated coding standard violations
+- Mandatory contribution to internal libraries
+
+## Career Development
+Required progression:
+- Monthly 1:1 technical assessments
+- Quarterly coding challenges (mandatory participation)
+- Annual certification requirements (AWS/K8s)
+- Open source contribution requirements
+- Speaking at minimum 2 conferences per year
+
+## Team Development
+I believe in fostering a learning environment where:
+- Junior developers are paired with seniors for knowledge transfer
+- Team members rotate responsibilities to build broad expertise
+- We hold bi-weekly technical sharing sessions
+- Everyone gets opportunities to lead projects
+
+## Project Management Approach
+Key principles I follow:
+1. Maintain a balanced technical debt ratio
+2. Regular architecture review sessions
+3. Continuous delivery with automated pipelines
+4. Two-week sprint cycles with flexible scope
+
+## Handling Technical Challenges
+When facing technical challenges, I advocate for:
+- Proof of concepts before major architectural changes
+- Data-driven decision making
+- Regular performance monitoring and optimization
+- Building for scale from day one
+
+## Common Team Scenarios
+From my experience leading teams:
+- When conflicts arise between team members, address them early through open discussion
+- For urgent production issues, have a clear escalation path
+- Balance feature delivery with technical debt management
+- Encourage knowledge sharing through documentation 

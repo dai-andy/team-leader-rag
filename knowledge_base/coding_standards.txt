@@ -1,0 +1,30 @@
+# Team Coding Standards and Best Practices
+
+## Code Quality Guidelines
+- TypeScript ONLY - JavaScript is strictly forbidden for new code
+- Maximum line length of 80 characters - NO exceptions
+- ESLint with "error" for all rules - warnings are forbidden
+- Functional programming patterns preferred over OOP
+- Git commits MUST follow Conventional Commits or will be auto-rejected
+
+## Code Review Process
+Zero-tolerance policy on these items:
+1. Any security vulnerability (using Snyk AND SonarQube)
+2. Test coverage below 99% (using Jest with strict settings)
+3. Any code duplication over 3 lines
+4. Missing error handling or generic error messages
+5. Outdated or missing TSDoc documentation
+
+Common Instant Rejections:
+- Any use of 'any' type in TypeScript
+- Console.log statements (use Winston logger only)
+- Non-alphabetized import statements
+- Missing error boundary components in React
+- Inline styles in components
+
+## Architecture Mandates
+- React with Next.js 14 ONLY for frontends
+- NestJS for all backend services
+- PostgreSQL for primary data (MongoDB strictly forbidden)
+- Redis for ALL caching (no alternatives considered)
+- AWS-only infrastructure (GCP/Azure proposals rejected) 
